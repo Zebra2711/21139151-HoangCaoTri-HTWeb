@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout Example</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .row {
+        display: flex;
+        flex-direction: column;
+      }
+      .header {
+        background-color: #00ff15;
+        text-align: center;
+        height: 20px;
+        border: 1px solid black;
+        flex: 1;
+      }
+
+      .menu {
+        text-align: center;
+        background-color: #ea00ff;
+        border: 1px solid black;
+        flex: 2;
+      }
+      body {
+        margin: 0;
+        border: 1px solid black;
+      }
+      section,
+      nav,
+      none {
+        flex: 1;
+        height: 200px;
+      }
+      nav {
+        background-color: #d0ff00;
+        text-align: center;
+        border: 1px solid black;
+      }
+      section {
+        background-color: #0011ff;
+        text-align: center;
+        border: 1px solid black;
+      }
+      footer {
+        text-align: center;
+        background-color: #ff0000;
+        padding: 5px;
+        border: 1px solid black;
+      }
+      none {
+        text-align: center;
+        background-color: #ffffff;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="header">Header</div>
+      <div class="menu">Menu</div>
+    </div>
+    <div class="container">
+      <nav>Nav</nav>
+      <none></none>
+      <section>Section</section>
+    </div>
+    <footer>Footer</footer>
+  </body>
+</html>
