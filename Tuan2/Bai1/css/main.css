@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  /*border: solid 1px blue;*/
+  padding: 0px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  font-style: italic;
+  text-align: center;
+  font-size: 35px;
+  text-shadow: #f08a8a 7px 7px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.menu-box {
+  background-color: #f08a8a;
+  position: relative;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.menu li {
+  list-style: none;
+  line-height: 50px;
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin: 0px 5px 0px;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.home-icon img {
+  vertical-align: middle;
+}
+.column:nth-child(1) li {
+  display: list-item;
+  text-align: center;
+  background-color: #f09696;
+  list-style: none;
+  padding: 7px 0px 7px 0px;
+  border-radius: 17px;
+  margin: 7px 0px 7px 0px;
+}
+.column:nth-child(1) a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+.column:nth-child(1) img {
+  margin-top: 50px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px 5px #f08a8a;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  float: left;
+  padding: 10px;
+  height: 700px;
+  overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.column::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.column {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.column:nth-child(1) {
+  width: 20%;
+}
+.column:nth-child(2) {
+  width: 50%;
+}
+.column:nth-child(2) h2 {
+  margin: 0px 25% 0px 25%;
+  text-align: center;
+  background-color: #f08a8a;
+  color: #722828;
+}
+.column:nth-child(3) {
+  background-color: black;
+  width: 30%;
+  color: white;
+}
+@media (width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f08a8a;
+  padding: 10px;
+  text-align: center;
+}
+
+.back-to-top {
+  color: red;
+}
+/*
+.searchbar {
+  line-height: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: auto 50px auto;
+}
+
+#search {
+  margin-right: 7px;
+}
+*/
