@@ -1,90 +1,73 @@
+<html>
 
-<HTML>
-<HEAD>
-<TITLE>Jackson Electronics Registration Form</TITLE>
-</HEAD>
-<BODY>
-<CENTER><IMG SRC="../images/Jackson.jpg">
-<H2>Registration Form</H2>
-Register your Jackson Electronics product here
-<FORM NAME=REG>
-<INPUT TYPE=HIDDEN NAME=EMAIL VALUE="adavis@Jkson_Electronics.com">
-<TABLE>
-   <TD>First Name:</TD>
-   <TD COLSPAN=2><INPUT NAME=FirstName SIZE=15> 
-       Last Name: <INPUT NAME=LastName SIZE=15></TD>
-</TR>
-<TR>
-   <TD>Address #1:</TD>
-   <TD COLSPAN=2><INPUT NAME=Address1 SIZE=30></TD>
-</TR>
-<TR>
-   <TD>Address #2:</TD>
-   <TD COLSPAN=2><INPUT NAME=Address2 SIZE=30></TD>
-</TR>
-<TR>
-   <TD>City:</TD>
-   <TD COLSPAN=2><INPUT NAME=City>State: <INPUT NAME=State SIZE=3> 
-       Zip: <INPUT NAME=ZIP SIZE=8></TD>
-</TR>
-<TR>
-   <TD>Country:</TD>
-   <TD COLSPAN=2><INPUT NAME=Country VALUE="United States"></TD>
-</TR>
-<TR>
-   <TD COLSPAN=3><HR></TD>
-</TR>
-<TR>
-   <TD>Product:</TD>
-   <TD COLSPAN=2><SELECT NAME=Product>
-       <OPTION>ScanMaster
-       <OPTION>ScanMaster II
-       <OPTION>LaserPrint 1000
-       <OPTION>LaserPrint 5000
-       <OPTION>Print/Scan 150
-       <OPTION>Print/Scan 250
-       </SELECT></TD>
-</TR>
-<TR>
-   <TD>Date Purchased:</TD>
-   <TD COLSPAN=2><INPUT NAME=Date></TD>
-</TR>
-<TR>
-   <TD>Serial #:</TD>
-   <TD COLSPAN=2><INPUT NAME=Serial></TD>
-</TR>
-<TR>
-   <TD VALIGN=TOP>Used for:</TD>
-   <TD VALIGN=TOP><INPUT TYPE=RADIO NAME=USE VALUE=HOME>Home<BR>
-       <INPUT TYPE=RADIO NAME=USE VALUE=BUS CHECKED>Business<BR>
-       <INPUT TYPE=RADIO NAME=USE VALUE=GOV>Government</TD>
-   <TD VALIGN=TOP><INPUT TYPE=RADIO NAME=USE VALUE=ED>Educational Institution<BR>
-       <INPUT TYPE=RADIO NAME=USE VALUE=OTHER>Other</TD>
-</TR>
-<TR>
-   <TD VALIGN=TOP>System (check all that apply):</TD>
-   <TD VALIGN=TOP><INPUT TYPE=CHECKBOX NAME=WIN9598NT>Windows 95/98/NT<BR>
-       <INPUT TYPE=CHECKBOX NAME=WINDOS>Windows 3.x/DOS<BR>
-       <INPUT TYPE=CHECKBOX NAME=MAC>Macintosh</TD>
-   <TD VALIGN=TOP><INPUT TYPE=CHECKBOX NAME=UNIX>UNIX<BR>
-       <INPUT TYPE=CHECKBOX NAME=OTHEROS>Other</TD>
-</TR>
-<TR>
-   <TD COLSPAN=3><HR></TD>
-</TR>
-<TR>
-   <TD VALIGN=TOP>Comments?:</TD>
-   <TD COLSPAN=2>
-   <TEXTAREA ROWS=5 COLS=40 NAME=Comments WRAP=VIRTUAL></TEXTAREA>
-   </TD>
-</TR>
-<TR>
-   <TD COLSPAN=3 ALIGN=CENTER>
-   <INPUT TYPE=SUBMIT VALUE="Click to register">
-   <INPUT TYPE=RESET VALUE="Click to cancel">
-   </TD>
-</TR> 
-</TABLE></CENTER>
-</FORM>
-</BODY>
-</HTML>
+<head>
+    <title>Jackson Electronics Registration Form</title>
+</head>
+
+<body>
+    <center><img src="../images/Jackson.jpg">
+        <h2>Registration Form</h2>Register your Jackson Electronics product here
+        <form name="REG"><input type="HIDDEN" name="EMAIL" value="adavis@Jkson_Electronics.com">
+            <table>
+                <td>First Name:</td>
+                <td colspan="2"><input name="FirstName" size="15"> Last Name:<input name="LastName" size="15"></td>
+                <tr>
+                    <td>Address #1:</td>
+                    <td colspan="2"><input name="Address1" size="30"></td>
+                </tr>
+                <tr>
+                    <td>Address #2:</td>
+                    <td colspan="2"><input name="Address2" size="30"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td colspan="2"><input name="City">State:<input name="State" size="3"> Zip:<input name="ZIP" size="8"></td>
+                </tr>
+                <tr>
+                    <td>Country:</td>
+                    <td colspan="2"><input name="Country" value="United States"></td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product:</td>
+                    <td colspan="2"><select name="Product"><option>ScanMaster<option>ScanMaster II<option>LaserPrint 1000<option>LaserPrint 5000<option>Print/Scan 150<option>Print/Scan 250</select></td>
+                </tr>
+                <tr>
+                    <td>Date Purchased:</td>
+                    <td colspan="2"><input name="Date"></td>
+                </tr>
+                <tr>
+                    <td>Serial #:</td>
+                    <td colspan="2"><input name="Serial"></td>
+                </tr>
+                <tr>
+                    <td valign="TOP">Used for:</td>
+                    <td valign="TOP"><input type="RADIO" name="USE" value="HOME">Home<br><input type="RADIO" name="USE" value="BUS" checked="CHECKED">Business<br><input type="RADIO" name="USE" value="GOV">Government</td>
+                    <td valign="TOP"><input type="RADIO" name="USE" value="ED">Educational Institution<br><input type="RADIO" name="USE" value="OTHER">Other</td>
+                </tr>
+                <tr>
+                    <td valign="TOP">System (check all that apply):</td>
+                    <td valign="TOP"><input type="CHECKBOX" name="WIN9598NT">Windows 95/98/NT<br><input type="CHECKBOX" name="WINDOS">Windows 3.x/DOS<br><input type="CHECKBOX" name="MAC">Macintosh</td>
+                    <td valign="TOP"><input type="CHECKBOX" name="UNIX">UNIX<br><input type="CHECKBOX" name="OTHEROS">Other</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="TOP">Comments?:</td>
+                    <td colspan="2"><textarea rows="5" cols="40" name="Comments" wrap="VIRTUAL"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="3" align="CENTER"><input type="SUBMIT" value="Click to register"><input type="RESET" value="Click to cancel"></td>
+                </tr>
+            </table>
+    </center>
+</body>
+
+</html>
