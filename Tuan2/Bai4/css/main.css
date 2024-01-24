@@ -64,7 +64,7 @@ ul {
 }
 #container {
   position: relative;
-  border-left: 0.1em solid green;
+  border-left: 0.1em solid orange;
 }
 #article {
   padding-left: 13em;
