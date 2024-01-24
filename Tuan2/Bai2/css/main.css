@@ -1,5 +1,101 @@
 * {
-  border: dotted 1px orangered;
-  text-align: left;
-  padding: 20px;
+  padding: 0px;
+  margin: auto 0px;
+  box-sizing: border-box;
+}
+header .logo {
+  display: flex;
+  height: 140px;
+  background: url(../images/background.png);
+  align-items: center;
+}
+.logoimg {
+  height: 140px;
+  position: relative;
+}
+header h1,
+header p {
+  margin-left: 20px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+nav,
+footer {
+  clear: both;
+  color: #ffffff;
+  background-color: #aeaca8;
+  height: 30px;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav li a {
+  color: #ffffff;
+}
+
+nav li a:hover {
+  color: #000000;
+}
+section.courses {
+  float: left;
+  width: 70%;
+  border-right: 1px solid #eeeeee;
+}
+
+article {
+  clear: both;
+  overflow: auto;
+  width: 100%;
+}
+
+hgroup {
+  margin-top: 40px;
+}
+figure {
+  float: left;
+  width: 290px;
+  height: 220px;
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid #eeeeee;
+}
+aside section a {
+  color: red;
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+a {
+  text-decoration: none;
+}
+h2,
+h3 {
+  color: red;
+}
+section.courses h2 {
+  color: #000000;
+}
+section.courses p {
+  padding-top: 20px;
+}
+section.popular-recipies {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+aside {
+  width: 30%;
+  float: left;
+  padding: 0px 0px 0px 20px;
+}
+section.contact-details {
+}
+section.contact-details p {
+  padding-top: 20px;
 }
